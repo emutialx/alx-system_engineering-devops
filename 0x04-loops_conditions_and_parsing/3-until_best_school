@@ -2,7 +2,7 @@
 #This script uses until loop to print"Best School" 10*
 
 i=0
-until [ $i gt 10 ]
+until [ $i -gt 9 ]
 do
 	echo "Best School"
 	((i++))
