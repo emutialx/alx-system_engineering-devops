@@ -6,12 +6,15 @@ while [ $i -le 20 ]
 do
     if [ $i -eq 4 ]
     then
+	 echo "$i"
          echo "badluck form China"
     elif [ $i -eq 9 ]
     then
+	echo "$i"
         echo "bad luck from Japan"
     elif [ $i -eq 17 ]
     then
+	echo "$i"
         echo "bad luck from Italy"
     else
         echo "$i"
