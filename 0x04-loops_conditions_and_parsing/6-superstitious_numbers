@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This uses more if conditions in a loop
+# This uses case to ckeck for conditions in a loop
 
 i=1
 while [ $i -le 20 ]
