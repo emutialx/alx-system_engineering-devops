@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-#Bash script that displays numbers from 1 to 100
-#Prints FizzBuzz if number is multiple of 3 and 5
-#Prints Fizz for number multiple of 3
-#Prints Buzz for number multiple of 5
-#if not print the number itself
+# Bash script that displays numbers from 1 to 100
+# Prints FizzBuzz if number is multiple of 3 and 5
+# Prints Fizz for number multiple of 3
+# Prints Buzz for number multiple of 5
+# if not print the number itself
 
 i=1
 while [ $i -le 100 ]
