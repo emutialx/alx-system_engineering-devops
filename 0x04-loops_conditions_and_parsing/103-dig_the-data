@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script parses Apache log files in list format.
+#   counts the unique logs and sorts the apache log file in reverse order
+
+myfile="apache-access.log"
+awk -F' ' '{print $1, $9}' $myfile | sort | uniq -c | sort -nr
