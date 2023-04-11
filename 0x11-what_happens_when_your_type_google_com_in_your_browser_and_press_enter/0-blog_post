@@ -1,0 +1,22 @@
+When you type “https://www.google.com” into your web browser and hit enter, a series of complex events take place behind the scenes. In this blog post, we will explore each step of this process to understand how your browser communicates with Google’s servers and delivers the webpage to your screen.
+
+1.DNS Lookup:
+The first thing your browser does is to resolve the domain name “www.google.com” to an IP address. This is done through a process called DNS lookup. Your browser sends a request to your Internet Service Provider’s (ISP) DNS server, asking it to resolve the domain name to an IP address. If the DNS server has the IP address cached, it returns it to the browser. Otherwise, it contacts other DNS servers in the hierarchy to resolve the IP address.
+
+Establishing a Connection:
+Once the IP address is obtained, your browser establishes a TCP connection with Google’s server at that IP address. The TCP protocol provides reliable, ordered, and error-checked delivery of data between applications running on different hosts.
+
+2.SSL Handshake:
+Google’s server requires a secure connection using the SSL (Secure Sockets Layer) protocol. Your browser initiates an SSL handshake with the server to establish a secure connection. During this process, your browser and the server agree on a set of encryption algorithms to use for the session.
+
+3.HTTP Request:
+After the SSL handshake is complete, your browser sends an HTTP request to the server asking for the webpage at the URL “https://www.google.com”. This request contains information such as the browser type, the user agent, and any cookies associated with the domain.
+
+4.Server Processing:
+Google’s server receives the HTTP request and processes it. It generates an HTML page based on the query and sends it back to your browser.
+
+5.HTML Rendering:
+Once your browser receives the HTML page from the server, it parses the page and renders it on your screen. This involves fetching additional resources like images, stylesheets, and scripts that are referenced in the HTML page.
+
+6.Page Load:
+Finally, the webpage is loaded, and you can interact with it. You can enter a search query, click on links, or navigate to other pages on the website.
