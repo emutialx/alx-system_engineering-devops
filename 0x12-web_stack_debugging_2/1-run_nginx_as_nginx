@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Set user for nginx to nginx
+sed -i 's/user  nginx;/user  nginx;\n/' /etc/nginx/nginx.conf
+
+# Set nginx to listen on all active IPs on port 8080
+sed -i 's/listen       80;/listen       8080;/g' /etc/nginx/conf.d/default.conf
+
+# Start nginx service
+nginx
